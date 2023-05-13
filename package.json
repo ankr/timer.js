@@ -17,7 +17,8 @@
   "keywords": [
     "game",
     "timer",
-    "pause"
+    "pause",
+    "pausable"
   ],
   "author": "ankr",
   "license": "MIT",
