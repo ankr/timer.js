@@ -40,6 +40,14 @@ export class Timer {
     return this.#elapsedTime / 1000;
   }
 
+  get isStarted() {
+    return this.#isStarted;
+  }
+
+  get isPaused() {
+    return this.#isPaused;
+  }
+
   start() {
     if (!this.#isStarted) {
       this.#startTime = performance.now();

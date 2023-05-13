@@ -27,6 +27,10 @@ timer.toggle();
 // Inside the game loop you can access the following properties
 timer.deltaTime; // time since last tick
 timer.elapsedTime; // total time since timer was started
+
+// There are also properties for checking if the timer is started and/or paused
+timer.isStarted;
+timer.isPaused;
 ```
 
 ## Example
