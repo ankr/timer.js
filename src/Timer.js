@@ -1,6 +1,7 @@
 export class Timer {
   // Timing
   #startTime;
+  #isStarted;
 
   // Pausing
   #isPaused;
@@ -13,6 +14,7 @@ export class Timer {
 
   constructor() {
     this.#startTime = 0;
+    this.#isStarted = false;
     this.#isPaused = false;
     this.#pausedAt = 0;
     this.#pausedTime = 0;
@@ -39,9 +41,9 @@ export class Timer {
   }
 
   start() {
-    if (this.#isPaused) {
+    if (!this.#isStarted) {
       this.#startTime = performance.now();
-      this.#isPaused = false;
+      this.#isStarted = true;
     }
   }
 
