@@ -10,6 +10,9 @@ Timer comes with a simple api.
 // Start by creating a single Timer instance to be used everywhere.
 const timer = new Timer();
 
+// Start the timer before starting the game loop.
+timer.start();
+
 // Make sure to tick the timer inside your game loop.
 timer.tick();
 
@@ -26,27 +29,26 @@ timer.deltaTime; // time since last tick
 timer.elapsedTime; // total time since timer was started
 ```
 
-Here it is put together in an example:
+## Example
+
+Here it is put together in a small example.
+
 ```javascript
-let timer;
+const timer = new Timer();
 
-const update = (deltaTime) => {
-    // Update game logic using `deltaTime`
-};
-
-const render = () => {
-    // ...
+const update = () => {
+    // Update game logic using `timer.deltaTime`
 };
 
 const loop = () => {
     requestAnimationFrame(loop);
     timer.tick(); // Make sure to tick timer every frame
-    update(timer.deltaTime);
+    update();
     render();
 };
 
 const start = () => {
-    timer = new Timer();
+    timer.start(); // Starting the timer
     loop();
 };
 
