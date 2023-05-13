@@ -1,0 +1,24 @@
+{
+  "name": "@ankr/pausable-game-timer",
+  "version": "0.0.1",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ankr/pausable-game-timer.js.git"
+  },
+  "keywords": [
+    "game",
+    "timer",
+    "pause"
+  ],
+  "author": "ankr",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ankr/pausable-game-timer.js/issues"
+  },
+  "homepage": "https://github.com/ankr/pausable-game-timer.js#readme"
+}
