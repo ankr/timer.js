@@ -2,6 +2,12 @@
 
 A simple timer class to be used in game loops. Support pausing and resuming.
 
+## Installation
+
+```
+npm install @ankr/pausable-game-timer
+```
+
 ## Usage
 
 Timer comes with a simple api.
