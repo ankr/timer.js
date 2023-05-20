@@ -4,6 +4,7 @@
   "description": "",
   "type": "module",
   "main": "index.js",
+  "files": ["src/Timer.js"],
   "scripts": {
     "test": "node --test"
   },
