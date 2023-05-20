@@ -13,6 +13,8 @@ npm install @ankr/pausable-game-timer
 Timer comes with a simple api.
 
 ```javascript
+import { Timer } from '@ankr/pausable-game-timer';
+
 // Start by creating a single Timer instance to be used everywhere.
 const timer = new Timer();
 
@@ -44,6 +46,8 @@ timer.isPaused;
 Here it is put together in a small example.
 
 ```javascript
+import { Timer } from '@ankr/pausable-game-timer';
+
 const timer = new Timer();
 
 const update = () => {
