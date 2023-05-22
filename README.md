@@ -1,11 +1,11 @@
-# pausable-game-timer
+# Timer.js
 
-A simple timer class to be used in game loops. Support pausing and resuming.
+A simple timer class with pause functionality.
 
 ## Installation
 
 ```
-npm install @ankr/pausable-game-timer
+npm install @ankr/timer
 ```
 
 ## Usage
@@ -13,7 +13,7 @@ npm install @ankr/pausable-game-timer
 Timer comes with a simple api.
 
 ```javascript
-import { Timer } from '@ankr/pausable-game-timer';
+import { Timer } from "@ankr/timer";
 
 // Start by creating a single Timer instance to be used everywhere.
 const timer = new Timer();
@@ -46,7 +46,7 @@ timer.isPaused;
 Here it is put together in a small example.
 
 ```javascript
-import { Timer } from '@ankr/pausable-game-timer';
+import { Timer } from "@ankr/timer";
 
 const timer = new Timer();
 

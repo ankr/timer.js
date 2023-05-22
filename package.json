@@ -1,32 +1,32 @@
 {
-  "name": "@ankr/pausable-game-timer",
-  "version": "1.0.1",
-  "description": "",
-  "type": "module",
-  "main": "index.js",
-  "files": [
-    "src/Timer.js"
-  ],
-  "scripts": {
-    "test": "node --test"
-  },
-  "publishConfig": {
-    "access": "public"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/ankr/pausable-game-timer.js.git"
-  },
-  "keywords": [
-    "game",
-    "timer",
-    "pause",
-    "pausable"
-  ],
-  "author": "ankr",
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/ankr/pausable-game-timer.js/issues"
-  },
-  "homepage": "https://github.com/ankr/pausable-game-timer.js#readme"
+    "name": "@ankr/timer",
+    "version": "1.0.1",
+    "description": "",
+    "type": "module",
+    "main": "index.js",
+    "files": [
+        "src/Timer.js"
+    ],
+    "scripts": {
+        "test": "node --test"
+    },
+    "publishConfig": {
+        "access": "public"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/ankr/timer.js.git"
+    },
+    "keywords": [
+        "game",
+        "timer",
+        "pause",
+        "pausable"
+    ],
+    "author": "ankr",
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/ankr/timer.js/issues"
+    },
+    "homepage": "https://github.com/ankr/timer.js#readme"
 }
