@@ -27,17 +27,25 @@ export class Timer {
    */
   get deltaTime() {
     if (!this.#isPaused) {
-      return this.#deltaTime / 1000;
+      return this.#deltaTime;
     }
 
     return 0;
+  }
+
+  get deltaSeconds() {
+    return this.deltaTime / 1000;
   }
 
   /**
    * Total amount of time since the timer was started.
    */
   get elapsedTime() {
-    return this.#elapsedTime / 1000;
+    return this.#elapsedTime;
+  }
+
+  get elapsedSeconds() {
+    return this.elapsedTime / 1000;
   }
 
   get isStarted() {
